@@ -1,0 +1,11 @@
+.md-header-nav__title::after {
+  content: "";
+  background-image: url("../img/nocs.png"); /* Caminho para a segunda logo */
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 40px; /* Ajuste o tamanho conforme necessário */
+  height: 40px; /* Ajuste o tamanho conforme necessário */
+  margin-left: 10px;
+  vertical-align: middle;
+}
